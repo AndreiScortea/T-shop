@@ -6,13 +6,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { HomeComponent } from './home/home.component';
 // import { MatAutocompleteModule, MatButtonModule, MatCheckboxModule, MatDatepickerModule, 
 //   MatFormFieldModule, MatInputModule, MatRadioModule, MatSelectModule, MatSliderModule, 
 //   MatSlideToggleModule } from '@angular/material';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,21 @@
-<mat-toolbar color="primary">
-  <span class="gap">T-SHOP</span>
-  <span class="filler">
+<mat-toolbar class="nav" color="white">
+  <div class="logo">T-SHOP</div>
+  <div class="middle">
     <button mat-button>
-    <mat-icon>favorite_border</mat-icon> </button>
-  </span>
-  <span>
-    <button mat-button>
-      <mat-icon>shopping_cart</mat-icon>
+      Men
     </button>
-  </span>
+    <button mat-button>
+      Women
+    </button>
+    <button mat-button>
+      Kids
+    </button>
+  </div>
+  <button class="fav" mat-button>
+    <mat-icon>favorite_border</mat-icon>
+  </button>
+  <button mat-button>
+    <mat-icon>shopping_cart</mat-icon>
+  </button>
 </mat-toolbar>
+<app-home></app-home>

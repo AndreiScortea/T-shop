@@ -1,6 +1,12 @@
-.filler {
-    flex: 1 1 auto;
- }
- .gap {
-    margin-right: 10px;
- }
+.nav{
+   display: flex;
+   justify-content: flex-end;
+}
+.logo{
+   margin-right: auto;
+   flex:1;
+   cursor: pointer;
+}
+.middle{
+   flex: 1;
+}
