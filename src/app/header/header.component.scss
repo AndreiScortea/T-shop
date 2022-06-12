@@ -1,0 +1,13 @@
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+}
+.logo{
+  margin-right: auto;
+  flex:1;
+  cursor: pointer;
+}
+.middle{
+  flex: 1;
+}

@@ -7,6 +7,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
 // import { MatAutocompleteModule, MatButtonModule, MatCheckboxModule, MatDatepickerModule, 
 //   MatFormFieldModule, MatInputModule, MatRadioModule, MatSelectModule, MatSliderModule, 
 //   MatSlideToggleModule } from '@angular/material';
@@ -14,7 +15,8 @@ import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
