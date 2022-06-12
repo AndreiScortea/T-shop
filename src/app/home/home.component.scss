@@ -1,0 +1,18 @@
+.categories {
+  display: flex;
+//  justify-content: space-between;
+  min-height: 75vh;
+  margin:0px 15px;
+}
+
+.man {
+  background-color: green;
+  flex: 1;
+
+}
+
+.women {
+  background-color: red;
+  flex: 1;
+  margin: 0px 0px 0px 15px;
+}
