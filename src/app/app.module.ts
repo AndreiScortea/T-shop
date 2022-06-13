@@ -8,6 +8,11 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { MenPageComponent } from './men-page/men-page.component';
+import { WomenPageComponent } from './women-page/women-page.component';
+import { KidsPageComponent } from './kids-page/kids-page.component';
+import { FavoritesPageComponent } from './favorites-page/favorites-page.component';
+import { ShoppingCartPageComponent } from './shopping-cart-page/shopping-cart-page.component';
 // import { MatAutocompleteModule, MatButtonModule, MatCheckboxModule, MatDatepickerModule, 
 //   MatFormFieldModule, MatInputModule, MatRadioModule, MatSelectModule, MatSliderModule, 
 //   MatSlideToggleModule } from '@angular/material';
@@ -16,7 +21,12 @@ import { HeaderComponent } from './header/header.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    MenPageComponent,
+    WomenPageComponent,
+    KidsPageComponent,
+    FavoritesPageComponent,
+    ShoppingCartPageComponent
   ],
   imports: [
     BrowserModule,

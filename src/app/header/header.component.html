@@ -1,20 +1,20 @@
 <mat-toolbar class="nav" color="white">
-  <div class="logo">T-SHOP</div>
+  <div class="logo" [routerLink]="['']">T-SHOP</div>
   <div class="middle">
-    <button mat-button [routerLink]="">
+    <button mat-button [routerLink]="['/man']">
       Men
     </button>
-    <button mat-button>
+    <button mat-button [routerLink]="['/woman']">
       Women
     </button>
-    <button mat-button>
+    <button mat-button [routerLink]="['/kids']">
       Kids
     </button>
   </div>
-  <button class="fav" mat-button>
+  <button class="fav" mat-button [routerLink]="['/favorites']">
     <mat-icon>favorite_border</mat-icon>
   </button>
-  <button mat-button>
+  <button mat-button [routerLink]="['/shopping-cart']">
     <mat-icon>shopping_cart</mat-icon>
   </button>
 </mat-toolbar>
